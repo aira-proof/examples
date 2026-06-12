@@ -20,7 +20,7 @@ A real AI lending agent that evaluates loan applications using Claude and demons
 
 ```bash
 pip install aira-sdk anthropic
-export AIRA_API_KEY="aira_live_xxx"      # https://app.airaproof.com/dashboard/api-keys
+export AIRA_API_KEY="aira_live_xxx"      # https://airaproof.com/dashboard/api-keys
 export ANTHROPIC_API_KEY="sk-ant-..."     # For Claude AI model
 python agent.py
 ```
@@ -97,7 +97,7 @@ python agent.py
 
 ============================================================
   All 9 feature areas demonstrated.
-  Dashboard: https://app.airaproof.com
+  Dashboard: https://airaproof.com
   Docs:      https://docs.airaproof.com
   SDK:       pip install aira-sdk
 ============================================================

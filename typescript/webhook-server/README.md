@@ -23,7 +23,7 @@ An Express server that receives Aira webhook events with HMAC-SHA256 signature v
 ```bash
 npm install aira-sdk express
 npm install -D @types/express tsx
-export AIRA_WEBHOOK_SECRET="whsec_xxx"   # https://app.airaproof.com/dashboard/webhooks
+export AIRA_WEBHOOK_SECRET="whsec_xxx"   # https://airaproof.com/dashboard/webhooks
 npx tsx examples/webhook-server/index.ts
 ```
 
@@ -39,7 +39,7 @@ npx tsx examples/webhook-server/index.ts
 ngrok http 5000
 
 # Then set the ngrok URL as your webhook endpoint in the Aira dashboard:
-# https://app.airaproof.com/dashboard/webhooks
+# https://airaproof.com/dashboard/webhooks
 # -> https://abc123.ngrok.io/webhook
 ```
 

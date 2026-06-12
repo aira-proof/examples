@@ -33,7 +33,7 @@ MODEL_ID = "claude-sonnet-4-6"
 
 if not AIRA_API_KEY:
     print("Error: Set AIRA_API_KEY environment variable")
-    print("  Get your key at https://app.airaproof.com/dashboard/api-keys")
+    print("  Get your key at https://airaproof.com/dashboard/api-keys")
     sys.exit(1)
 
 if not ANTHROPIC_API_KEY:
@@ -374,7 +374,7 @@ def main():
 
     print("=" * 60)
     print("  All 9 feature areas demonstrated.")
-    print(f"  Dashboard: https://app.airaproof.com")
+    print(f"  Dashboard: https://airaproof.com")
     print(f"  Docs:      https://docs.airaproof.com")
     print(f"  SDK:       pip install aira-sdk")
     print("=" * 60 + "\n")

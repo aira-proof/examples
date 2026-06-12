@@ -18,7 +18,7 @@ import { AiraVercelMiddleware } from "aira-sdk/extras/vercel-ai";
 const AIRA_API_KEY = process.env.AIRA_API_KEY;
 if (!AIRA_API_KEY) {
   console.error("Error: Set AIRA_API_KEY environment variable");
-  console.error("  Get your key at https://app.airaproof.com/dashboard/api-keys");
+  console.error("  Get your key at https://airaproof.com/dashboard/api-keys");
   process.exit(1);
 }
 

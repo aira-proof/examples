@@ -22,7 +22,7 @@ import { verifySignature, parseEvent, WebhookEventType } from "aira-sdk/extras/w
 const WEBHOOK_SECRET = process.env.AIRA_WEBHOOK_SECRET;
 if (!WEBHOOK_SECRET) {
   console.error("Error: Set AIRA_WEBHOOK_SECRET environment variable");
-  console.error("  Find your webhook secret at https://app.airaproof.com/dashboard/webhooks");
+  console.error("  Find your webhook secret at https://airaproof.com/dashboard/webhooks");
   process.exit(1);
 }
 

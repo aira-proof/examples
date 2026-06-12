@@ -16,7 +16,7 @@ Each notarization creates a tamper-proof receipt with an Ed25519 signature.
 
 ```bash
 npm install aira-sdk
-export AIRA_API_KEY="aira_live_xxx"    # https://app.airaproof.com/dashboard/api-keys
+export AIRA_API_KEY="aira_live_xxx"    # https://airaproof.com/dashboard/api-keys
 npx tsx examples/langchain-agent/index.ts
 ```
 

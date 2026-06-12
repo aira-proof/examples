@@ -32,7 +32,7 @@ authorize() ──> [Queue] ──> [Queue] ──> [Queue]
 
 ```bash
 npm install aira-sdk
-export AIRA_API_KEY="aira_live_xxx"    # https://app.airaproof.com/dashboard/api-keys
+export AIRA_API_KEY="aira_live_xxx"    # https://airaproof.com/dashboard/api-keys
 npx tsx examples/offline-sync/index.ts
 ```
 

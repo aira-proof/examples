@@ -19,7 +19,7 @@ const MODEL_ID = "claude-sonnet-4-6";
 
 if (!AIRA_API_KEY) {
   console.error("Error: Set AIRA_API_KEY environment variable");
-  console.error("  Get your key at https://app.airaproof.com/dashboard/api-keys");
+  console.error("  Get your key at https://airaproof.com/dashboard/api-keys");
   process.exit(1);
 }
 
@@ -285,7 +285,7 @@ async function main() {
 
   console.log("=".repeat(60));
   console.log("  All 9 feature areas demonstrated.");
-  console.log("  Dashboard: https://app.airaproof.com");
+  console.log("  Dashboard: https://airaproof.com");
   console.log("  Docs:      https://docs.airaproof.com");
   console.log("  SDK:       npm install aira-sdk");
   console.log("=".repeat(60) + "\n");

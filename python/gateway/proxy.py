@@ -41,6 +41,6 @@ print(f"Model: {response.model}")
 # 5. Returned the response — same format as direct OpenAI
 
 # Check the action in the dashboard or via API
-print(f"\nCheck your dashboard: https://app.airaproof.com/dashboard/actions")
+print(f"\nCheck your dashboard: https://airaproof.com/dashboard/actions")
 
 aira.close()

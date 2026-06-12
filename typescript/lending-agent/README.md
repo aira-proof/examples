@@ -20,7 +20,7 @@ A lending agent that demonstrates **every feature** of the `aira-sdk` TypeScript
 
 ```bash
 npm install aira-sdk
-export AIRA_API_KEY="aira_live_xxx"    # https://app.airaproof.com/dashboard/api-keys
+export AIRA_API_KEY="aira_live_xxx"    # https://airaproof.com/dashboard/api-keys
 npx tsx examples/lending-agent/index.ts
 ```
 
@@ -92,7 +92,7 @@ npx tsx examples/lending-agent/index.ts
 
 ============================================================
   All 9 feature areas demonstrated.
-  Dashboard: https://app.airaproof.com
+  Dashboard: https://airaproof.com
   Docs:      https://docs.airaproof.com
   SDK:       npm install aira-sdk
 ============================================================

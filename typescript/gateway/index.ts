@@ -24,4 +24,4 @@ const response = await client.chat.completions.create({
 });
 
 console.log("Response:", response.choices[0].message.content);
-console.log("\nCheck your dashboard: https://app.airaproof.com/dashboard/actions");
+console.log("\nCheck your dashboard: https://airaproof.com/dashboard/actions");
